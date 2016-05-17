@@ -42,5 +42,13 @@
     <ClCompile Include="9.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="base_recognition_new.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="usercascade_fist.xml">
+      <Filter>리소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
