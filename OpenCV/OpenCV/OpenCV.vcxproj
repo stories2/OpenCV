@@ -103,7 +103,16 @@
     <ClCompile Include="8.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="9.cpp" />
+    <ClCompile Include="9.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="makefile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="output.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

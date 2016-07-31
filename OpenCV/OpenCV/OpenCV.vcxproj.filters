@@ -42,5 +42,18 @@
     <ClCompile Include="9.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="makefile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="output.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
