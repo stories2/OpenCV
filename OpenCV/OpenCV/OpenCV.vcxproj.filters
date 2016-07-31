@@ -42,11 +42,16 @@
     <ClCompile Include="9.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="makefile.cpp">
+=======
+    <ClCompile Include="base_recognition_new.cpp">
+>>>>>>> origin/master
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Image Include="output.jpg">
       <Filter>리소스 파일</Filter>
     </Image>
@@ -55,5 +60,10 @@
     <Text Include="output.txt">
       <Filter>리소스 파일</Filter>
     </Text>
+=======
+    <None Include="usercascade_fist.xml">
+      <Filter>리소스 파일</Filter>
+    </None>
+>>>>>>> origin/master
   </ItemGroup>
 </Project>

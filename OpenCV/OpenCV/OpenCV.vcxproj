@@ -106,6 +106,7 @@
     <ClCompile Include="9.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="makefile.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="output.jpg" />
+=======
+    <ClCompile Include="base_recognition_new.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="usercascade_fist.xml" />
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
